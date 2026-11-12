@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08090c">
+<title>AURA PERFUMES | Elegancia en cada detalle</title>
+<style>
+:root{--bg:#08090c;--panel:#11141a;--silver:#e5e7eb;--muted:#a8adb8;--blue:#183b67;--gold:#b99a62}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% 0%,#17202c 0,#08090c 48%);color:var(--silver);font-family:Georgia,'Times New Roman',serif}
+.wrap{width:min(1100px,92%);margin:auto}
+header{padding:34px 0 22px;text-align:center;border-bottom:1px solid #30343c}
+.mark{font-size:clamp(64px,12vw,112px);line-height:.9;font-weight:400;color:#d9dde4;text-shadow:0 0 20px #8ca4c4}
+.brand{font-size:clamp(30px,6vw,52px);letter-spacing:.22em;margin:10px 0 3px}
+.sub{font:12px Arial,sans-serif;letter-spacing:.48em;color:#c5cbd5}
+.tag{margin:25px 0 0;color:#c4c9d2;letter-spacing:.28em;font-size:13px}
+.intro{text-align:center;padding:48px 0 30px}
+h1{font-size:clamp(26px,4vw,40px);font-weight:400;letter-spacing:.08em;margin:0 0 12px}
+.intro p{font:15px/1.7 Arial,sans-serif;color:var(--muted);max-width:620px;margin:auto}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding:22px 0 58px}
+.card{background:linear-gradient(160deg,#171b22,#0c0e12);border:1px solid #343b46;border-radius:14px;padding:24px 15px 22px;text-align:center;box-shadow:0 18px 45px #0008}
+.bottle{height:220px;width:112px;margin:0 auto 20px;position:relative;border:2px solid #5c626c;border-radius:22px 22px 17px 17px;background:linear-gradient(90deg,#38170d,#a64a20 24%,#5a2412 65%,#27110d);box-shadow:inset 9px 0 16px #ffffff18,inset -8px 0 18px #0008,0 14px 25px #0009}
+.bottle:before{content:"";position:absolute;width:38px;height:52px;left:35px;top:-54px;background:linear-gradient(90deg,#090a0d,#343943,#090a0d);border:1px solid #626873;border-radius:6px 6px 3px 3px}
+.bottle:after{content:"";position:absolute;width:54px;height:20px;left:26px;top:-70px;background:#101216;border:1px solid #626873;border-radius:5px 5px 2px 2px;box-shadow:0 -8px 0 -4px #747b86}
+.label{position:absolute;left:7px;right:7px;top:80px;bottom:28px;background:linear-gradient(135deg,#080a0e,#172a40 50%,#080a0e);border:1px solid #a6aeb9;display:flex;flex-direction:column;justify-content:center;align-items:center}
+.label .a{font-size:30px;color:#e1e5eb;line-height:1}
+.label b{font-size:17px;letter-spacing:.12em;font-weight:400}
+.label small{font:8px Arial,sans-serif;letter-spacing:.28em;margin-top:3px}
+.card h2{font-size:21px;letter-spacing:.18em;font-weight:400;margin:0 0 6px}
+.card p{font:12px Arial,sans-serif;color:#9fa6b1;letter-spacing:.12em;margin:0}
+.note{text-align:center;padding:24px 0 58px;border-top:1px solid #30343c}
+.note h2{font-size:22px;font-weight:400;letter-spacing:.12em}
+.note p{font:14px/1.7 Arial,sans-serif;color:var(--muted);max-width:600px;margin:auto}
+footer{text-align:center;border-top:1px solid #30343c;padding:24px 0 34px;color:#858c98;font:11px Arial,sans-serif;letter-spacing:.2em}
+@media(max-width:760px){.products{grid-template-columns:repeat(2,1fr);gap:12px}.bottle{transform:scale(.9);transform-origin:bottom center;margin-bottom:10px}}
+@media(max-width:390px){.products{grid-template-columns:1fr 1fr}.card{padding:20px 8px}.bottle{transform:scale(.78);margin-top:-12px;margin-bottom:-2px}}
+.brand-copy{margin:18px auto 0!important;color:#d4c29e!important;font-family:Georgia,serif!important;font-size:17px!important;font-style:italic;letter-spacing:.03em;max-width:650px!important}\n</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="mark">A</div>
+  <div class="brand">AURA</div>
+  <div class="sub">PERFUMES</div>
+  <div class="tag">ELEGANCIA EN CADA DETALLE</div>
+</header>
+<main>
+<section class="intro">
+  <h1>NUESTRA COLECCIÓN</h1>
+  <p>Cuatro modelos. Una misma identidad. Descubrí la línea de AURA PERFUMES.</p>
+  <p class="brand-copy">“Un aroma no solo se lleva: deja huella. Descubrí la esencia que habla por vos.”</p>
+</section>
+<section class="products" aria-label="Modelos de AURA Perfumes">
+  <article class="card"><div class="bottle"><div class="label"><span class="a">A</span><b>AURA</b><small>PERFUMES</small></div></div><h2>NOIR</h2><p>MODELO 01</p></article>
+  <article class="card"><div class="bottle"><div class="label"><span class="a">A</span><b>AURA</b><small>PERFUMES</small></div></div><h2>BLUE</h2><p>MODELO 02</p></article>
+  <article class="card"><div class="bottle"><div class="label"><span class="a">A</span><b>AURA</b><small>PERFUMES</small></div></div><h2>GOLD</h2><p>MODELO 03</p></article>
+  <article class="card"><div class="bottle"><div class="label"><span class="a">A</span><b>AURA</b><small>PERFUMES</small></div></div><h2>ROYAL</h2><p>MODELO 04</p></article>
+</section>
+<section class="note">
+  <h2>AURA PERFUMES</h2>
+  <p>Gracias por conocer nuestra colección. Para consultas y pedidos, próximamente encontrarás aquí nuestros canales de contacto.</p>
+</section>
+</main>
+<footer> AURA PERFUMES · ELEGANCIA EN CADA DETALLE </footer>
+</div>
+</body>
+</html>
